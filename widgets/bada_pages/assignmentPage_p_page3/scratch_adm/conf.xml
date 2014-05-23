@@ -15,7 +15,7 @@
       <idWithinRootWidget>1</idWithinRootWidget>
       <linkedWidget>toolbox.grid</linkedWidget>
       <cols>1</cols>
-      <rows>3</rows>
+      <rows>5</rows>
       <width></width>
       <height></height>
       <align>center</align>
@@ -69,6 +69,96 @@
           <size>24</size>
           <color>3c7fc5</color>
           <weight>bold</weight>
+        </widget>
+      </cell>
+      <cell>
+        <index>0,3</index>
+        <styleClass></styleClass>
+        <width></width>
+        <height>10</height>
+        <align></align>
+        <valign></valign>
+        <wrap>wrap</wrap>
+        <left></left>
+        <top></top>
+        <_initialized>true</_initialized>
+      </cell>
+      <cell>
+        <index>0,4</index>
+        <styleClass></styleClass>
+        <width></width>
+        <height></height>
+        <align></align>
+        <valign></valign>
+        <wrap>wrap</wrap>
+        <left></left>
+        <top></top>
+        <_initialized>true</_initialized>
+        <widget>
+          <widgetClass>tooltwist.wbd.GridWidget</widgetClass>
+          <idWithinRootWidget>5</idWithinRootWidget>
+          <linkedWidget>toolbox.grid</linkedWidget>
+          <cols>1</cols>
+          <rows>1</rows>
+          <width>100%</width>
+          <height></height>
+          <align>center</align>
+          <valign>top</valign>
+          <cellDivs>none</cellDivs>
+          <cell>
+            <index>0,0</index>
+            <styleClass></styleClass>
+            <width></width>
+            <height></height>
+            <align></align>
+            <valign></valign>
+            <wrap>wrap</wrap>
+            <left></left>
+            <top></top>
+            <_initialized>true</_initialized>
+            <widget>
+              <widgetClass>tooltwist.wbd.GridWidget</widgetClass>
+              <idWithinRootWidget>6</idWithinRootWidget>
+              <linkedWidget>toolbox.grid</linkedWidget>
+              <cols>2</cols>
+              <rows>1</rows>
+              <width>100%</width>
+              <height></height>
+              <align>center</align>
+              <valign>top</valign>
+              <cellDivs>none</cellDivs>
+              <cell>
+                <index>0,0</index>
+                <styleClass></styleClass>
+                <width></width>
+                <height></height>
+                <align></align>
+                <valign></valign>
+                <wrap>wrap</wrap>
+                <left></left>
+                <top></top>
+                <_initialized>true</_initialized>
+                <widget>
+                  <widgetClass>tooltwist.bada.widgets.PersonMaintenanceWidget</widgetClass>
+                  <idWithinRootWidget>7</idWithinRootWidget>
+                  <linkedWidget>widgets.bada.personMaintenance</linkedWidget>
+                  <elementId></elementId>
+                </widget>
+              </cell>
+              <cell>
+                <index>1,0</index>
+                <styleClass></styleClass>
+                <width></width>
+                <height></height>
+                <align></align>
+                <valign></valign>
+                <wrap>wrap</wrap>
+                <left></left>
+                <top></top>
+                <_initialized>true</_initialized>
+              </cell>
+            </widget>
+          </cell>
         </widget>
       </cell>
     </widget>
